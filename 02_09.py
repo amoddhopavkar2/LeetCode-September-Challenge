@@ -10,3 +10,4 @@ class Solution:
                 if j < len(nums) and abs(nums[i] - nums[j]) <= t:
                     return True
         return False
+    return True
