@@ -14,4 +14,4 @@ class Solution:
                 if new_string == s:
                     return True
 
-            return False
+        return False
