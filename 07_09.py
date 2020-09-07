@@ -16,4 +16,3 @@ class Solution:
             pattern = pattern[1:]
 
         return True
-        
