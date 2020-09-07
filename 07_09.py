@@ -14,5 +14,4 @@ class Solution:
                 if not word in dictionary or dictionary[word] != pattern[0]:
                     return False
             pattern = pattern[1:]
-
         return True
