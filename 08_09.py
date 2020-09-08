@@ -22,6 +22,7 @@ class Solution:
     		else:
     			traversal(root.left, path, path_len, all_paths)
     			traversal(root.right, path, path_len, all_paths)
-    	path = []
+    	
+        path = []
     	traversal(root, [], 0, path)
     	return sum(path)
