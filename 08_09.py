@@ -18,8 +18,7 @@ class Solution:
 
             path_len += 1
             if not root.left and not root.right:
-                all_paths.append(int(''.join(str(val)
-                                             for val in path[:path_len]), 2))
+                all_paths.append(int(''.join(str(val) for val in path[:path_len]), 2))
             else:
                 traversal(root.left, path, path_len, all_paths)
                 traversal(root.right, path, path_len, all_paths)
