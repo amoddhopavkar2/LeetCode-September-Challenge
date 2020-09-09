@@ -18,4 +18,5 @@ class Solution:
     			return 1
     		elif int(list_ver_1[i]) < int(list_ver_2[i]):
     			return -1
+    	
     	return 0
