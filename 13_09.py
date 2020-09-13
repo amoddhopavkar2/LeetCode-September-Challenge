@@ -10,8 +10,7 @@ class Solution:
             i += 1
 
         while i < len(intervals) and newInterval[1] >= intervals[i][0]:
-            newInterval = [min(newInterval[0], intervals[i][0]),
-                           max(newInterval[1], intervals[i][1])]
+            newInterval = [min(newInterval[0], intervals[i][0]), max(newInterval[1], intervals[i][1])]
             i += 1
         result.append(newInterval)
         result.extend(intervals[i:])
