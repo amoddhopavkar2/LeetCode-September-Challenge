@@ -7,10 +7,8 @@ class Solution:
         for move in instructions:
             if move == 'G':
                 i, j = i+di, j+dj
-
             elif move == 'L':
                 di, dj = -dj, di
-
             else:
                 di, dj = dj, -di
 
