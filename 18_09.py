@@ -13,3 +13,4 @@ class Solution:
             max_profit = max(max_profit, prices[i] - low)
 
         return max_profit
+        
