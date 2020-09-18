@@ -13,3 +13,4 @@ class Solution:
                 di, dj = dj, -di
 
         return i == j == 0 or (di, dj) != (0, 1)
+        
