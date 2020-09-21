@@ -7,7 +7,6 @@ class Solution:
 		for n, start, end in trips:
 			lst.append((start, n))
 			lst.append((end, -n))
-		
 		lst.sort()
 
 		passengers = 0
