@@ -11,8 +11,8 @@ class Solution:
 			tank += (gas[i] - cost[i])
 
 			if tank < 0:
-				tank = 0
 				start = i + 1
+				tank = 0
 
 		if total_gas >= total_cost:
 			return start
