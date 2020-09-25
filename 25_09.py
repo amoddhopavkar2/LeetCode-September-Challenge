@@ -3,10 +3,10 @@
 class Solution:
 	def largestNumber(self, nums: List[int]) -> str:
 		if len(nums) == 0:
-			return ''
+			return '0'
 
-		for x in range(0, len(nums)-1):
-			for y in range(x+1, len(nums)):
+		for x in range(0, len(nums)-1, 1):
+			for y in range(x+1, len(nums), 1):
 				a, b = str(nums[x]), str(nums[y])
 				if int(a + b) < int(b + a):
 					temp = nums[x]
