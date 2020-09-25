@@ -5,9 +5,6 @@ class Solution:
 		if len(nums) == 0:
 			return ''
 
-		result = ''
-		count = 0
-
 		for x in range(0, len(nums)-1):
 			for y in range(x+1, len(nums)):
 				a, b = str(nums[x]), str(nums[y])
@@ -19,6 +16,8 @@ class Solution:
 		if nums[0] == 0:
 			return '0'
 
+		result = ''
+		count = 0
 		while count < len(nums):
 			result += str(nums[count])
 			count += 1
