@@ -3,7 +3,7 @@
 class Solution:
 	def largestNumber(self, nums: List[int]) -> str:
 		if len(nums) == 0:
-			return '0'
+			return ''
 
 		for x in range(0, len(nums)-1, 1):
 			for y in range(x+1, len(nums), 1):
