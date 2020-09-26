@@ -2,7 +2,7 @@
 
 class Solution:
 	def findPoisonedDuration(self, timeSeries: List[int], duration: int) -> int:
-		if not timeSeries:
+		if len(timeSeries) == 0:
 			return 0
 
 		result = 0
