@@ -10,3 +10,4 @@ class Solution:
 			result += min(timeSeries[i] - timeSeries[i-1], duration)
 
 		return result + duration
+
