@@ -24,7 +24,6 @@ class Solution:
 					value = dfs(v, end, graph, ans * weight, vis)
 					if value != -1:
 						return value
-						
 			return -1
 			
 		for i in range(len(q)):
