@@ -16,7 +16,6 @@ class Solution:
             if sub_array_product < k:
                 length = right + 1 - left
                 count += length
-
             else:
                 pass
 
