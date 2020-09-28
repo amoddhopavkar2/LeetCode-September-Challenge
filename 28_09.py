@@ -2,8 +2,7 @@
 
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
-        sub_array_product = 1
-        left = 0
+        sub_array_product, left = 1, 0
 
         count = 0
         for right, right_num in enumerate(nums):
