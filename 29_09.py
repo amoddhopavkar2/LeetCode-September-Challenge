@@ -15,6 +15,7 @@ class Solution:
 				if word == s[:len(word)] and word_break(s[len(word):]):
 					dp[s] = True
 					return True
+				
 				dp[s] = False
 			return False
 
