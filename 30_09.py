@@ -13,6 +13,6 @@ class Solution:
 		if max_value < 0:
 			return 1
 
-		for x in range(1, max_value+2, 1):
+		for x in range(1, max_value+2):
 			if x not in nums:
 				return x
